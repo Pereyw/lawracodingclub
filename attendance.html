@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="p-1">
+    <form name="student" method="post" action="#">
+        <div class="container-fluid">
+            <div class="row">
+                <table border="10" class="bg-info text-white display-7 font-weight-bold">
+                    <thead>
+                        <h3 border="10" class="bg-info text-white font-weight-bold"><b>Register 8153/-G009a &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                             PEREYTECH SCHOOL REGISTER &#10986 &#1026</b></h3>
+                    </thead>
+                <tr><td>Pic</td> <td>No.</td> <td>Student</td> <td>Program</td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                <td>Mark Register<br><input type="date" id="iMark" value=""></td>
+                </tr>
+                <!--Adding Images to register-->
+                <tr><td><img src="images/img1.jpg" width="47" height="55"></td><td><center>1</center></td>
+                <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Wisdom</a></td>
+                <td class="text-center">Comp Sci</td>
+                
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+                <!--Row1 Col2-->
+                
+                <td><select name="Row1Col2" id="iRow1Col2" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present1">/</option>
+                    <option value="Absent1">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer1">T</option>
+                </select></td>
+
+                <!--Row1 Col2-->
+
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+
+                <!--Row1 Col3-->
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+
+                <!--Row1 Col4-->
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+
+                <!--Row1 col5-->
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+                <!--Row1 col6-->
+                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                    text-align: right;" onchange="myMark1(this.value)">
+                    <option value="Present">/</option>
+                    <option value="Absent">0</option>
+                    <option value="Authorized1">A</option>
+                    <option value="Sick1">S</option>
+                    <option value="late1">L</option>
+                    <option value="transfer">T</option>
+                </select></td>
+                </tr>
+
+                <!--Row2 Items-->
+
+                <tr><td><img src="images/img2.jpg" width="47" height="55"></td><td><center>2</center></td>
+                    <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                    <td class="text-center">BSC IT</td>
+                    
+                    <td><select name="Row2co1" id="iRow2co1" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+                    <!--Row2 Col2-->
+                    
+                    <td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+    
+                    <!--Row2 Col4-->
+    
+                    <td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+    
+                    <!--Row2 Col3-->
+                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+    
+                    <!--Row1 Col4-->
+                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+    
+                    <!--Row1 col5-->
+                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present">/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+                    <!--Row2 col7-->
+                    <td><select name="Row2Col7" id="iRow2Col7" style="width: 120px; margin: 1px;
+                        text-align: right;" onchange="myMark2(this.value)">
+                        <option value="Present" >/</option>
+                        <option value="Absent">0</option>
+                        <option value="Authorized1">A</option>
+                        <option value="Sick1">S</option>
+                        <option value="late1">L</option>
+                        <option value="transfer">T</option>
+                    </select></td>
+                    </tr>
+                    <!--Row3-->
+
+                    <tr><td><img src="images/img3.jpg" width="47" height="55"></td><td><center>3</center></td>
+                        <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Wisdom</a></td>
+                        <td class="text-center">Comp Sci</td>
+                        
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+                        <!--Row1 Col2-->
+                        
+                        <td><select name="Row1Col2" id="iRow1Col2" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+        
+                        <!--Row1 Col2-->
+        
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present">/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+        
+                        <!--Row1 Col3-->
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+        
+                        <!--Row1 Col4-->
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+        
+                        <!--Row1 col5-->
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+                        <!--Row1 col6-->
+                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                            text-align: right;" onchange="myMark3(this.value)">
+                            <option value="Present" >/</option>
+                            <option value="Absent">0</option>
+                            <option value="Authorized1">A</option>
+                            <option value="Sick1">S</option>
+                            <option value="late1">L</option>
+                            <option value="transfer">T</option>
+                        </select></td>
+                        </tr>
+        
+                        <!--Row4 Items-->
+        
+                        <tr><td><img src="images/img4.jpg" width="47" height="55"></td><td><center>4</center></td>
+                            <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                            <td class="text-center">BSC IT</td>
+                            
+                            <td><select name="Row2co1" id="iRow2co1" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+                            <!--Row2 Col2-->
+                            
+                            <td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+            
+                            <!--Row2 Col4-->
+            
+                            <td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+            
+                            <!--Row2 Col3-->
+                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+            
+                            <!--Row1 Col4-->
+                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+            
+                            <!--Row1 col5-->
+                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+                            <!--Row2 col7-->
+                            <td><select name="Row2Col7" id="iRow2Col7" style="width: 120px; margin: 1px;
+                                text-align: right;" onchange="myMark4(this.value)">
+                                <option value="Present" >/</option>
+                                <option value="Absent">0</option>
+                                <option value="Authorized1">A</option>
+                                <option value="Sick1">S</option>
+                                <option value="late1">L</option>
+                                <option value="transfer">T</option>
+                            </select></td>
+                            </tr>
+
+                            <!--Row5-->
+
+                            <tr><td><img src="images/img5.jpg" width="47" height="55"></td><td><center>5</center></td>
+                                <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Wisdom</a></td>
+                                <td class="text-center">Comp Sci</td>
+                                
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                                <!--Row1 Col2-->
+                                
+                                <td><select name="Row1Col2" id="iRow1Col2" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                
+                                <!--Row1 Col2-->
+                
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                
+                                <!--Row1 Col3-->
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                
+                                <!--Row1 Col4-->
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                
+                                <!--Row1 col5-->
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                                <!--Row1 col6-->
+                                <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                    text-align: right;" onchange="myMark5(this.value)">
+                                    <option value="Present" >/</option>
+                                    <option value="Absent">0</option>
+                                    <option value="Authorized1">A</option>
+                                    <option value="Sick1">S</option>
+                                    <option value="late1">L</option>
+                                    <option value="transfer">T</option>
+                                </select></td>
+                                </tr>
+                
+                                <!--Row6 Items-->
+                
+                                <tr><td><img src="images/IMG_0405.jpg" width="47" height="55"></td><td><center>6</center></td>
+                                    <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                                    <td class="text-center">BSC IT</td>
+                                    
+                                    <td><select name="Row2co1" id="iRow2co1" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                                    <!--Row2 Col2-->
+                                    
+                                    <td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                    
+                                    <!--Row2 Col4-->
+                    
+                                    <td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                    
+                                    <!--Row2 Col3-->
+                                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                    
+                                    <!--Row1 Col4-->
+                                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                    
+                                    <!--Row1 col5-->
+                                    <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                                    <!--Row2 col7-->
+                                    <td><select name="Row2Col7" id="iRow2Col7" style="width: 120px; margin: 1px;
+                                        text-align: right;" onchange="myMark6(this.value)">
+                                        <option value="Present" >/</option>
+                                        <option value="Absent">0</option>
+                                        <option value="Authorized1">A</option>
+                                        <option value="Sick1">S</option>
+                                        <option value="late1">L</option>
+                                        <option value="transfer">T</option>
+                                    </select></td>
+                                    </tr>
+
+                                    <!--Row 7-->
+                                    <tr><td><img src="images/IMG_0405.jpg" width="47" height="55"></td><td><center>7</center></td>
+                                        <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                                        <td class="text-center">BSC IT</td>
+                                        
+                                        <td><select name="Row2co1" id="iRow2co1" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                                        <!--Row2 Col2-->
+                                        
+                                        <td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                        
+                                        <!--Row2 Col4-->
+                        
+                                        <td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                        
+                                        <!--Row2 Col3-->
+                                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                        
+                                        <!--Row1 Col4-->
+                                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                        
+                                        <!--Row1 col5-->
+                                        <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                                        <!--Row2 col7-->
+                                        <td><select name="Row2Col7" id="iRow2Col7" style="width: 120px; margin: 1px;
+                                            text-align: right;" onchange="myMark7(this.value)">
+                                            <option value="Present" >/</option>
+                                            <option value="Absent">0</option>
+                                            <option value="Authorized1">A</option>
+                                            <option value="Sick1">S</option>
+                                            <option value="late1">L</option>
+                                            <option value="transfer">T</option>
+                                        </select></td>
+                                        </tr>
+
+                                        <!--Row8-->
+                                        <tr><td><img src="images/IMG_0405.jpg" width="47" height="55"></td><td><center>8</center></td>
+                                            <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                                            <td class="text-center">BSC IT</td>
+                                            
+                                            <td><select name="Row2co1" id="iRow2co1" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                                            <!--Row2 Col2-->
+                                            
+                                            <td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                            
+                                            <!--Row2 Col4-->
+                            
+                                            <td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                            
+                                            <!--Row2 Col3-->
+                                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                            
+                                            <!--Row1 Col4-->
+                                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                            
+                                            <!--Row1 col5-->
+                                            <td><select name="Row1co1" id="iRow1co1" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                                            <!--Row2 col7-->
+                                            <td><select name="Row2Col7" id="iRow2Col7" style="width: 120px; margin: 1px;
+                                                text-align: right;" onchange="myMark8(this.value)">
+                                                <option value="Present" >/</option>
+                                                <option value="Absent">0</option>
+                                                <option value="Authorized1">A</option>
+                                                <option value="Sick1">S</option>
+                                                <option value="late1">L</option>
+                                                <option value="transfer">T</option>
+                                            </select></td>
+                                            </tr>
+                                            <!--Row9-->
+
+                                            <tr><td><img src="images/IMG_0405.jpg" width="47" height="55"></td><td><center>9</center></td>
+                                                <td class="p-2 mb-2 bg-white text-dark"><a href="#" style="width: 10vw;">Perey Alex</a></td>
+                                                <td class="text-center">BSC IT</td>
+                                                
+                                                <td><select name="Row9co1" id="iRow9co1" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present" >/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                                <!--Row2 Col2-->
+                                                
+                                                <td><select name="Row9Col2" id="iRow9Col2" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                
+                                                <!--Row2 Col4-->
+                                
+                                                <td><select name="Row9Col3" id="iRow9Col3" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                
+                                                <!--Row2 Col3-->
+                                                <td><select name="Row9Col4" id="iRow9Col4" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                
+                                                <!--Row1 Col4-->
+                                                <td><select name="Row9Col5" id="iRow9Col5" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                
+                                                <!--Row1 col5-->
+                                                <td><select name="Row9Col6" id="iRow9Col6" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                                <!--Row2 col7-->
+                                                <td><select name="Row9Col7" id="iRow9Col7" style="width: 120px; margin: 1px;
+                                                    text-align: right;" onchange="myMark9(this.value)">
+                                                    <option value="Present">/</option>
+                                                    <option value="Absent">0</option>
+                                                    <option value="Authorized1">A</option>
+                                                    <option value="Sick1">S</option>
+                                                    <option value="late1">L</option>
+                                                    <option value="transfer">T</option>
+                                                </select></td>
+                                                </tr>
+                                        <tr>
+                                            <td colspan="4" class="p-2 mb-2 bg-white text-warning">Total Attendance</td>
+                                            <td>
+                                                <input type="text" name="txtregister1" id="txt1" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister2" id="txt2" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister3" id="txt3" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister4" id="txt4" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister5" id="txt5" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister6" id="txt6" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                            <td>
+                                                <input type="text" name="txtregister7" id="txt7" style="width: 120px; text-align: rigth;" value="0">
+                                            </td>
+
+                                        </tr>
+                </table>
+            </div>
+        </div>
+        
+
+    </form>
+
+    <script>
+        function myMark1(element){
+            var q = parseInt(document.getElementById("txt1").value);
+            document.getElementById("txt1").value = q + 1;
+        }
+
+        function myMark2(element){
+            var q = parseInt(document.getElementById("txt2").value);
+            document.getElementById("txt2").value = q + 1;
+        }
+
+        function myMark3(element){
+            var q = parseInt(document.getElementById("txt3").value);
+            document.getElementById("txt3").value = q + 1;
+        }
+
+        function myMark4(element){
+            var q = parseInt(document.getElementById("txt4").value);
+            document.getElementById("txt4").value = q + 1;
+        }
+
+        function myMark5(element){
+            var q = parseInt(document.getElementById("txt5").value);
+            document.getElementById("txt5").value = q + 1;
+        }
+
+        function myMark6(element){
+            var q = parseInt(document.getElementById("txt6").value);
+            document.getElementById("txt6").value = q + 1;
+        }
+
+        function myMark7(element){
+            var q = parseInt(document.getElementById("txt7").value);
+            document.getElementById("txt").value = q + 1;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCC|signup</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<style>
+    body{
+        margin-bottom: 30px;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        justify-content: center;
+        background-image: url("images/IMG_0598.jpg");
+        background-size: cover;
+    }
+    .card{
+    margin-top: 25px;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ffded6;
+}
+.card:hover{
+  transform: translateX(-50);
+    color: aqua;
+}
+form{
+    margin: 20px;
+}
+.gender{
+    margin: 10px;
+    padding: 10px;
+}
+.inner-form{
+    margin: 1px;
+    padding: 1px; 
+}
+
+
+</style>
+<body class="p-4 m-1">
+    <form name="signup" method="POST" action="#">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="card shadow" style="width: 30rem;">
+                        <div class="card-inner">
+                            <img src="SVG/undraw_pic_profile_re_lxn6.svg" class="img-circle justify-content-center" style="width: 10rem; align-items:center; margin: 20px;"><br>
+                        </div>
+                        <div class="inner-form">
+                            <center>
+                                <label for="fName"><b>First Name:</b></label>
+                    <input type="text" name="fName" id="fName" placeholder="First Name" required style="margin: 10px; border-radius: 0 30px 30px; border-style: none;"><br>
+                    <label for="lName"><b>Last Name:</b></label>
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" required style="margin: 10px; border-radius: 0 30px 30px; border-style: none;"><br>
+                    <label for="telephone"><b>TelePhone:</b></label>
+                    <input type="tel" name="telephone" id="telephone" placeholder="0541715807" maxlength="20" minlength="10" style="margin: 10px; border-radius: 0 30px 30px; border-style: none;"><br>
+                    <label for="email"><b>Email&nbsp &nbsp &nbsp &nbsp &nbsp</b></label>
+                    <input type="email" name="email" id="email" placeholder="@gmail.com" required style="margin: 10px; border-radius: 0 30px 30px; border-style: none;"><br>
+                    
+                    <label for="password"><b>Password :</b></label>
+                    <input type="password" name="password" id="password" required style="margin: 10px; border-radius: 0 30px 30px; border-style: none;"><br>
+                    
+                    <div class="gender">
+                    <label for="Male"><b>Male</b></label>
+                    <input type="checkbox" name="Male" id="Male">
+
+                    <label for="Female"><b>Female</b></label>
+                    <input type="checkbox" name="Female" id="Female" required>
+                    </div>
+                    
+                    <p><q class="text-info m-3">Clicking on  Submit button means you agree to the terms and condition of our site.</q></p>
+
+                    <button onclick="this.innerHTML=name()" class="btn btn-primary">
+                        <input type="submit" name="Submit" id="submit">
+                    </button>
+                    <div class="login">
+
+                        <p>Already Have Accounts</p><button class="btn btn-primary"><a href="login.html" style="text-decoration: none; color: black;">Login</button></a>
+                    </div>
+                    
+                    
+
+                        </div>
+
+                    </div>
+                        </center>
+                </div>
+                
+            </div>
+        </div>
+
+    </form>
+<script>
+     function name(){
+        var person = alert(document.getElementById("fName","lName").value(name.fName, name.lName))
+        document.getElementById("fName","lName").value(name.fName, name.lName)
+            return this.fName + " " + this.lName
+        }
+</script>
+</body>
+</html>

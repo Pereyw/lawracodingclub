@@ -1,0 +1,324 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: radial-gradient(rgb(233, 204, 204),#ffded6);;
+}
+.nav{
+    top: 20px;
+    height: 40px;
+    float: right;
+    position: relative;
+    text-align: right;
+}
+.nav ul{
+    list-style: none;
+    color: blueviolet;
+    background-color: lightgreen;
+    align-items: center;
+}
+.nav li{
+    margin-right: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.nav li a{
+    text-decoration: none;
+    margin: 10px;
+}
+.logo{
+    top: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 10%;
+}
+.logo img{
+    height: 7vh;
+    width: 6vw;
+    opacity: 1;
+    position: fixed;
+}
+.logo p{
+    float: right;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4%;
+    padding: 0.5%;
+    margin-left: 0.5%;
+}
+.open{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.open p{
+    font-weight: 900;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    white-space: wrap;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by  */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 5s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/8 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.program{
+    display: grid;
+    position: relative;
+    padding: 5%;
+    border-style: none;
+}
+
+
+/* Copied text*/
+.card{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: radial-gradient(rgb(233, 204, 204),#ffded6);;
+}
+.card:hover{
+  transform: translateX(-50);
+    color: aqua;
+}
+
+.use-case ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5s);
+}
+.inlet:hover{
+  transform: scale(1.5s);
+  transform: translateX(-50%);
+  color: aqua;
+}
+.inlet{
+  border-style: none;
+  margin: 15px;
+  background-color: radial-gradient(rgb(233, 204, 204),#ffded6);
+}
+.inlet h2{
+  justify-content: center;
+  padding-top: 10px;
+}
+.inlet hr{
+  padding-bottom: 10px;
+  border-style: dotted;
+  opacity: .8;
+  color: aqua;
+}
+.events{
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin-left: 10px;
+  justify-content: center;
+}
+.events p{
+  padding: 5px;
+  text-align: center;
+  white-space: wrap;
+  margin: 5px;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.events a{
+  text-decoration: none;
+  color: #fff;
+}
+button{
+  border-style: none;
+}
+.search-b{
+  top: 20px;
+  display: block;
+  position: relative;
+  float: right;
+  margin-bottom: 25px;
+}
+.copyright{
+  font-size: small;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mision{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mision p{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  white-space: wrap;
+  font-size: small;
+  text-align: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mision hr{
+  border-style: dashed;
+  color: red;
+  border-radius: 30%;
+  opacity: .8;
+}
+.vision{
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.vision p{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  white-space: wrap;
+  font-size: small;
+  text-align: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.vision hr{
+  border-style: dashed;
+  color: red;
+  border-radius: 30%;
+  opacity: .8;
+}
+
+.social-media{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social-media p{
+  display: block;
+  flex-direction: column;
+  position: relative;
+  font-size: large;
+  text-align: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social-media hr{
+  border-style: dashed;
+  color: red;
+  border-radius: 30%;
+  opacity: .8;
+}
+.icons{
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  position: relative;
+  grid-template-columns: 5% 20% 20% 20% 20% 20%;
+  column-gap: 1em;
+  justify-content: space-evenly;
+
+  
+
+}
